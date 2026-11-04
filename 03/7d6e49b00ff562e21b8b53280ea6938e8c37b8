@@ -1,0 +1,68 @@
+tests/backend-identity.test.ts
+  s_44d5dd72f62bf7::t_347a8f78c11bdc 190-202
+  s_1c9cda1ab3052f::t_639a23467376ec 120-127,129-130,132-189
+  s_1c9cda1ab3052f::t_4ea94f985b1328 128,131
+  s_1c9cda1ab3052f::t_f45801691e2982 219
+tests/provider.test.ts
+  s_1c9cda1ab3052f::t_4f50e8c273e3d4 133,156,170,181,235,280,295,357,391,422,449
+pig/extensions/litellm/internal/discover/fallbacks_test.go
+  s_1c9cda1ab3052f::t_831f2f0b607be8 801
+tests/index.test.ts
+  s_1c9cda1ab3052f::t_895d5a8db06cfc 468,560
+pig/PORTING.md
+  s_1c9cda1ab3052f::t_72e8154afaa1f0 66
+tests/discover.test.ts
+  s_1c9cda1ab3052f::t_b1ac1535bec514 1222,5348
+  s_1c9cda1ab3052f::t_248e350187d649 3862-3892,3918-3926,3928-3949,3953-3959,3961,3984-3985
+  s_44d5dd72f62bf7::t_347a8f78c11bdc 3893-3917
+  s_1c9cda1ab3052f::t_911a11a6c7db28 3950-3951,3960,3962-3973,3975-3983
+  s_44d5dd72f62bf7::t_e7e99c67857d9f 3927,3952,3974
+pig/extensions/litellm/internal/discover/model_info_a_test.go
+  s_1c9cda1ab3052f::t_b6d4c49208f485 192
+pig/extensions/litellm/internal/discover/model_info_b_test.go
+  s_1c9cda1ab3052f::t_5a3400a89d813d 1048-1088,1121-1134,1137,1139-1142,1157-1159
+  s_44d5dd72f62bf7::t_db741bb7639273 1089-1120
+  s_1c9cda1ab3052f::t_03abe2d6bbb2d4 1135-1136,1138,1143-1156
+AGENTS.md
+  s_1c9cda1ab3052f::t_ac94fbdfa922f7 50-52
+src/backend-identity.ts
+  s_1c9cda1ab3052f::t_76c76dca95e80a 1
+  s_44d5dd72f62bf7::t_c2c11d1f627662 83
+  s_1c9cda1ab3052f::t_a8edb7a72e7746 34-35,67-69,81-82,91-93
+  s_44d5dd72f62bf7::t_347a8f78c11bdc 84-90
+pig/extensions/litellm/internal/backend/backend.go
+  s_44d5dd72f62bf7::t_c2c11d1f627662 141-142
+  s_1c9cda1ab3052f::t_4f048c82ce2a3d 119-120,139-140,143-145
+README.md
+  s_1c9cda1ab3052f::t_e100ea1e36690a 561,591
+pig/extensions/litellm/internal/backend/backend_test.go
+  s_1c9cda1ab3052f::t_fdc809559ad72e 102-168
+  s_44d5dd72f62bf7::t_db741bb7639273 169-177
+  s_1c9cda1ab3052f::t_ae3874521bb8b2 189
+pig/extensions/litellm/internal/types/types.go
+  s_1c9cda1ab3052f::t_a8eebc2ce0acde 30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "037d6e49b00ff562e21b8b53280ea6938e8c37b8",
+  "prompts": {},
+  "sessions": {
+    "s_1c9cda1ab3052f": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a1a2b4-facb-73ef-9138-20d416a41dc7",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Vaibhav Meena <vaibhav.meena@1mg.com>"
+    },
+    "s_44d5dd72f62bf7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a5609f3f-fdc5-45c7-ae84-4e8cb989a909",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Vaibhav Meena <vaibhav.meena@1mg.com>"
+    }
+  }
+}
